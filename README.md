@@ -35,7 +35,9 @@ eveonlinejs.fetch('eve:SkillTree', function (err, result) {
 // Set default parameters (useful for setting keyID and vCode)
 eveonlinejs.setParams({
   keyID: '1234567',
-  vCode: 'some random vcode'
+  vCode: 'some random vcode',
+  UserAgent: 'Your contact info',
+  url: 'https://api.testeveonline.com/' // Use while developing, else remove.
 })
 
 // Default parameters will get merged with the parameters passed into fetch().
@@ -46,6 +48,9 @@ eveonlinejs.fetch('char:AccountBalance', {characterID: 12345}, function (err, re
 })
 ```
 
+CPP ask that if you are going to consume the API that you pass a custom User-Agent header along with your requests.
+The User-Agent should primarily include information on how we can contact you, but it is also a good idea to include your application name and version.
+refere to https://eveonline-third-party-documentation.readthedocs.org/en/latest/xmlapi/intro/
 
 ### Client object
 
