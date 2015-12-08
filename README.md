@@ -1,4 +1,4 @@
-# eveonline.js [![](https://secure.travis-ci.org/MichaelErmer/eveonlinejs.png)](http://travis-ci.org/#!/MichaelErmer/eveonlinejs)
+# eveonline.js [![](https://travis-ci.org/Destidom/eveonlinejs.svg)](https://travis-ci.org/Destidom/eveonlinejs.svg)
 
 
 **An asynchronous EVE Online API client for Node.js** 
@@ -8,7 +8,7 @@
 - asynchronous
 - caching
 
-**This is a continued version of https://github.com/kuja/hamster**
+**This is a forked version of https://github.com/MichaelErmer/eveonlinejs**
 
 ### Installation
 
