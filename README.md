@@ -9,6 +9,7 @@
 - caching
 
 **This is a forked version of https://github.com/MichaelErmer/eveonlinejs**
+** Original version https://github.com/kuja/hamster**
 
 ### Installation
 
